@@ -3,34 +3,17 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Hi, my name is Arya Lyngdoh Lakshmanan. This website is a collection of my various projects, and possibly blog posts written just for the site. My projects are typically endeavors in data analytics, web development, and machine learning. My biggest current project for example is a home grown implementation of user-tailored neural network to create and maintain spotify playlists.
+Most of my projects are open source and hosted on my [GitHub](https://github.com/Arya-LL).
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+If you enjoy any of what I've done or you want to contact me, please get in touch through [email](mailto:arya.l.lakshmanan@gmail.com).
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Most of my work is done in Rust, which I learned through reading the incredible [rust book](https://doc.rust-lang.org/book/). I am aiming to use Rust as my primary language for all of my projects so I can gain experience with the language and learn through doing.
 
-## Features
+I also work extensively in Python and R, as I have the most past experience in data analytics with them, especially in the realms of academic analysis and finance/economics.
 
-Here are certain features of this site.
+For data management, I use PostgreSQL and am learning alternative databases like SurrealDB.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Lastly, for project management, I use [Obsidian](https://obsidian.md) to organize my thoughts and develop high level goals.
