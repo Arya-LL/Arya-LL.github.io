@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "src/content/blog/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38eec544207e6f3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "src/content/blog/Making a Website.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915965c74b2b46f6",
+  "active": "38eec544207e6f3b",
   "lastOpenFiles": [
+    "src/content/blog/first-post.md",
+    "src/content/blog/Untitled.md",
+    "src/content/blog/Making a Website.md",
+    "Untitled.md",
     "node_modules/@img/sharp-libvips-linuxmusl-x64/README.md",
     "node_modules/@img/sharp-libvips-linuxmusl-x64/versions.json",
     "node_modules/@img/sharp-libvips-linuxmusl-x64/package.json",
@@ -179,10 +196,6 @@
     "node_modules/@divriots/jampack/node_modules/react/README.md",
     "node_modules/ts-node/dist-raw/README.md",
     "node_modules/ts-node/dist-raw/NODE-LICENSE.md",
-    "node_modules/eslint-plugin-astro/node_modules/@typescript-eslint/types/README.md",
-    "node_modules/astro-eslint-parser/node_modules/@typescript-eslint/types/README.md",
-    "node_modules/n/README.md",
-    "node_modules/prop-types/README.md",
-    "node_modules/run-applescript/node_modules/human-signals/README.md"
+    "node_modules/eslint-plugin-astro/node_modules/@typescript-eslint/types/README.md"
   ]
 }
