@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Making a Website.md",
+                "file": "src/content/blog/Spotify Playlist Manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Making a Website.md",
+                "file": "src/content/blog/Spotify Playlist Manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Making a Website.md",
+                "file": "src/content/blog/Spotify Playlist Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Making a Website.md"
+                "file": "src/content/blog/Spotify Playlist Manager.md"
               }
             }
           }
@@ -148,41 +148,41 @@
   },
   "active": "915965c74b2b46f6",
   "lastOpenFiles": [
-    "node_modules/@img/sharp-libvips-linuxmusl-x64/README.md",
-    "node_modules/@img/sharp-libvips-linuxmusl-x64/versions.json",
-    "node_modules/@img/sharp-libvips-linuxmusl-x64/package.json",
-    "node_modules/@img/sharp-libvips-linux-x64/README.md",
-    "node_modules/@img/sharp-libvips-linux-x64/versions.json",
-    "node_modules/@img/sharp-libvips-linux-x64/package.json",
-    "node_modules/astro-eslint-parser/node_modules/@astrojs/compiler/LICENSE",
-    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/LICENSE",
-    "node_modules/@divriots/jampack/node_modules/react-dom/README.md",
-    "node_modules/@divriots/jampack/node_modules/react-dom/package.json",
-    "node_modules/@divriots/jampack/node_modules/react-dom/build-info.json",
-    "node_modules/@divriots/jampack/node_modules/react-dom/unstable-native-dependencies.js",
-    "node_modules/@divriots/jampack/node_modules/react-dom/unstable-fizz.node.js",
-    "node_modules/eslint/node_modules/ajv/README.md",
-    "node_modules/@eslint/eslintrc/node_modules/ajv/README.md",
-    "node_modules/ts-node/README.md",
-    "node_modules/ts-node/node_modules/diff/release-notes.md",
-    "node_modules/ts-node/node_modules/diff/README.md",
-    "node_modules/ts-node/node_modules/diff/CONTRIBUTING.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/README.md",
-    "node_modules/tailwindcss/node_modules/postcss-selector-parser/README.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/CHANGELOG.md",
-    "node_modules/tailwindcss/node_modules/postcss-selector-parser/CHANGELOG.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/API.md",
-    "node_modules/tailwindcss/node_modules/postcss-selector-parser/API.md",
-    "node_modules/critters/node_modules/htmlparser2/README.md",
-    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/README.md",
-    "node_modules/astro-eslint-parser/node_modules/@astrojs/compiler/README.md",
-    "node_modules/@divriots/jampack/node_modules/react/README.md",
-    "node_modules/ts-node/dist-raw/README.md",
-    "node_modules/ts-node/dist-raw/NODE-LICENSE.md",
-    "node_modules/eslint-plugin-astro/node_modules/@typescript-eslint/types/README.md",
-    "node_modules/astro-eslint-parser/node_modules/@typescript-eslint/types/README.md",
-    "node_modules/n/README.md",
-    "node_modules/prop-types/README.md",
-    "node_modules/run-applescript/node_modules/human-signals/README.md"
+    "node_modules/typescript/ThirdPartyNoticeText.txt",
+    "node_modules/typescript/LICENSE.txt",
+    "node_modules/typescript/SECURITY.md",
+    "node_modules/typescript/README.md",
+    "node_modules/typescript/package.json",
+    "node_modules/vscode-css-languageservice/lib/esm/cssLanguageTypes.d.ts",
+    "node_modules/vscode-css-languageservice/lib/esm/cssLanguageService.d.ts",
+    "node_modules/vscode-css-languageservice/SECURITY.md",
+    "node_modules/vscode-css-languageservice/README.md",
+    "node_modules/vscode-css-languageservice/LICENSE.md",
+    "node_modules/vscode-css-languageservice/CHANGELOG.md",
+    "node_modules/vscode-css-languageservice/package.json",
+    "node_modules/vscode-css-languageservice/docs/customData.schema.json",
+    "node_modules/vscode-css-languageservice/docs/customData.md",
+    "node_modules/vscode-css-languageservice/docs",
+    "node_modules/vscode-html-languageservice/thirdpartynotices.txt",
+    "node_modules/vscode-css-languageservice/lib/esm/data/webCustomData.js",
+    "node_modules/vscode-css-languageservice/lib/esm/data",
+    "node_modules/vscode-html-languageservice/SECURITY.md",
+    "node_modules/vscode-html-languageservice/README.md",
+    "node_modules/vscode-html-languageservice/LICENSE.md",
+    "node_modules/vscode-html-languageservice/CHANGELOG.md",
+    "node_modules/vscode-html-languageservice/docs/customData.md",
+    "node_modules/css-select/README.md",
+    "node_modules/entities/readme.md",
+    "node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/README.md",
+    "node_modules/domutils/readme.md",
+    "node_modules/semver/README.md",
+    "node_modules/js-yaml/README.md",
+    "node_modules/vscode-languageserver-protocol/README.md",
+    "node_modules/js-yaml/CHANGELOG.md",
+    "node_modules/vscode-languageserver/README.md",
+    "node_modules/vscode-jsonrpc/README.md",
+    "node_modules/readable-stream/README.md",
+    "node_modules/readable-stream/GOVERNANCE.md",
+    "node_modules/vscode-nls/README.md"
   ]
 }
