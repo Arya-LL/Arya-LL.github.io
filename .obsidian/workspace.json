@@ -19,7 +19,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915965c74b2b46f6",
+  "active": "38eec544207e6f3b",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "node_modules/typescript/ThirdPartyNoticeText.txt",
     "node_modules/typescript/LICENSE.txt",
     "node_modules/typescript/SECURITY.md",
@@ -184,5 +186,43 @@
     "node_modules/readable-stream/README.md",
     "node_modules/readable-stream/GOVERNANCE.md",
     "node_modules/vscode-nls/README.md"
+=======
+    "src/content/blog/first-post.md",
+    "src/content/blog/Untitled.md",
+    "src/content/blog/Making a Website.md",
+    "Untitled.md",
+    "node_modules/@img/sharp-libvips-linuxmusl-x64/README.md",
+    "node_modules/@img/sharp-libvips-linuxmusl-x64/versions.json",
+    "node_modules/@img/sharp-libvips-linuxmusl-x64/package.json",
+    "node_modules/@img/sharp-libvips-linux-x64/README.md",
+    "node_modules/@img/sharp-libvips-linux-x64/versions.json",
+    "node_modules/@img/sharp-libvips-linux-x64/package.json",
+    "node_modules/astro-eslint-parser/node_modules/@astrojs/compiler/LICENSE",
+    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/LICENSE",
+    "node_modules/@divriots/jampack/node_modules/react-dom/README.md",
+    "node_modules/@divriots/jampack/node_modules/react-dom/package.json",
+    "node_modules/@divriots/jampack/node_modules/react-dom/build-info.json",
+    "node_modules/@divriots/jampack/node_modules/react-dom/unstable-native-dependencies.js",
+    "node_modules/@divriots/jampack/node_modules/react-dom/unstable-fizz.node.js",
+    "node_modules/eslint/node_modules/ajv/README.md",
+    "node_modules/@eslint/eslintrc/node_modules/ajv/README.md",
+    "node_modules/ts-node/README.md",
+    "node_modules/ts-node/node_modules/diff/release-notes.md",
+    "node_modules/ts-node/node_modules/diff/README.md",
+    "node_modules/ts-node/node_modules/diff/CONTRIBUTING.md",
+    "node_modules/postcss-nested/node_modules/postcss-selector-parser/README.md",
+    "node_modules/tailwindcss/node_modules/postcss-selector-parser/README.md",
+    "node_modules/postcss-nested/node_modules/postcss-selector-parser/CHANGELOG.md",
+    "node_modules/tailwindcss/node_modules/postcss-selector-parser/CHANGELOG.md",
+    "node_modules/postcss-nested/node_modules/postcss-selector-parser/API.md",
+    "node_modules/tailwindcss/node_modules/postcss-selector-parser/API.md",
+    "node_modules/critters/node_modules/htmlparser2/README.md",
+    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/README.md",
+    "node_modules/astro-eslint-parser/node_modules/@astrojs/compiler/README.md",
+    "node_modules/@divriots/jampack/node_modules/react/README.md",
+    "node_modules/ts-node/dist-raw/README.md",
+    "node_modules/ts-node/dist-raw/NODE-LICENSE.md",
+    "node_modules/eslint-plugin-astro/node_modules/@typescript-eslint/types/README.md"
+>>>>>>> 9c44e73357092a798eec78c63ca1eb23d87da4a0
   ]
 }

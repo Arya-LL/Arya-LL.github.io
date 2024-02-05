@@ -4,7 +4,7 @@ pubDatetime: 2024-01-27T23:38:50.459Z
 title: First post
 slug: first-post
 featured: true
-draft: false
+draft: true
 tags:
   - Non-technical
   - Personal
