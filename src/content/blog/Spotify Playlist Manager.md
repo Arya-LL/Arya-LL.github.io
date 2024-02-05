@@ -4,7 +4,7 @@ pubDatetime: 2024-01-30T19:04:28.969Z
 title: Spotify Playlist Manager
 slug: spotify-playlist-manager
 featured: true
-draft: true
+draft: false
 tags:
   - Personal
   - Techincal
@@ -13,15 +13,17 @@ tags:
 description: I decided maintaining a few spotify playlists was too much effort so I learned a low-level programming language to create a neural network playlist creator and organizer.
 layout:
 ---
+## THIS PAGE IS UNFINISHED AND WILL BE INCOHERENT IN ITS CURRENT STATE
+
 I decided maintaining a few spotify playlists was too much effort so I learned a low-level programming language to create a neural network playlist creator and organizer. The source code for this project is available [here!](https://www.github.com/Arya-LL/Spotify-Playlists)
 
 ## Table of Contents
 
-## Project Overview
+## What Even Is This or Overview
 
 ### Problem being addressed
 
-I am not a fan of Spotify's recommendation methods. I especially wish I could have auto-generated playlists that only include the songs from my library of liked songs, rather than spotify's recommended mixes which include both songs from my library and suggested songs. 
+I listen to an odd variety of music. The music I listen to on my own when running or working is very different than the music I play in the car with friends or family. I am not a fan of Spotify's recommendation methods, where it gives me daily mixes or radios that only partially have songs from my library. I especially wish I could have auto-generated playlists that only include the songs from my library of liked songs, rather than spotify's recommended mixes which include both songs from my library and suggested songs. 
 
 To be specific about the problem I am trying to address and how my tool will fix it, consider the following situation I frequently find myself in.
 
@@ -37,7 +39,7 @@ A simple solution to this would be to create playlists split by genre, where we 
 
 I realized that coming up with a fixed set of rules to classify these songs was not going to work, and that classifying music based on "vibes" required a much more adaptable classification system which used variables I could not even consider. I looked to neural networks to address this issue instead.
 
-A neural network is a classification algorithm which is first trained with training data items where we provide both our input data, and a label for how we would classify that item. The algorithm is trained using this data to refine what weights it assigns to each factor we provide in the data associated with each item. For our music tracks, our trained algorithm might assign a large negative weight to really high beats per minute when deciding if a song should be classified as a good group song, resulting in songs with a high beats per minute being put in the solo category. 
+A neural network is a predictive algorithm which is first trained with training data items where we provide both our input data, and what the output prediction should be for that input. The algorithm is trained using this data to refine what weights it assigns to each factor we provide in the data associated with each item. In our case, we are specifically looking to assign a track to one of finite playlists, and our output will be a label corresponding to one of the possible playlists. For example, our trained algorithm might assign a large negative weight to really high beats per minute when deciding if a song should be classified as a good group song, resulting in songs with a high beats per minute being put in the solo category. 
 
 A drawback of this method is we would need user input to generate the labels for the training data, removing our dreams of creating a fully automated playlist manager. The huge benefit in return here is the algorithm would be adaptable to the dataset we apply it to, and thus can be personalized for each user's listening tastes. I decided this tradeoff was worth it and set to implementing a program that trained and returned a neural network to classify these songs into user specified playlists with minimal user input.
 
@@ -46,12 +48,56 @@ A drawback of this method is we would need user input to generate the labels for
 
 ### tl;dr
 
-- Rust for literally everything
-- Tokio for asynchronous runtime
-- SQLite for database management
-- burn for constructing the neural network
+- [Rust](https://www.rust-lang.org/) for literally everything
+- [Burn](https://burn.dev/) for constructing the neural network
+- [Tokio](https://tokio.rs/) for asynchronous runtime
+- [SQLite](https://www.sqlite.org/index.html) for database management
+- [Rayon](https://github.com/rayon-rs/rayon) for multi-threading
 ### What is Rust and why?
 
 I chose to implement this project using pure Rust, a low-level programming language that most relevantly offers incredible speed advantages when compared to traditional data science languages like Python. Training a neural network is a computationally intensive process, and I figured the more efficient I can make that, the better shot I have on making an app with widespread applicability instead of just something only I would use. My hope is the resulting app will be quick enough to genuinely offer an improvement for people rather than the app just being the result of my long-winded coding exercise.
 
-Further, I wanted to conduct a long-winded coding exercise. My background in applied statistics was limited to academic projects - even outside of the classroom. I am determined to transfer these experiences from a purely academic context to a more generally practical purpose. I taught myself the Rust programming language by reading through the incredible [Rust Book](https://www.rust-lang.com/book) and engaging in smaller projects using the language. I am yet however to implement a large project that requires planning and library development, and I aim to use this project to develop and showcase those skills.
+To be entirely honest though, I kind of wanted to conduct a long-winded coding exercise. My background in applied statistics was limited to academic projects - even outside of the classroom. I am determined to transfer these experiences from a purely academic context to a more generally practical purpose. I taught myself the Rust programming language by reading through the incredible [Rust Book](https://www.rust-lang.com/book) and engaging in smaller projects using the language. I am yet however to implement a large project that requires planning and library development, and I aim to use this project to develop and showcase those skills.
+
+### Why these tools within Rust?
+
+### Burn
+
+Burn is the foundation of this project. All the other packages here exist to support our implementation of the Burn library. Burn is a nascent machine learning library made in Rust; it provides almost all of the underlying tooling necessary for us to build a neural network. For people familiar with the python package [PyTorch](https://pytorch.org/), burn is basically rust's version of PyTorch. It is unique in this sense because a majority of the other machine learning libraries I could find for Rust were instead wrappers for PyTorch. By implementing the library in Rust instead of wrapping the existing Python library, we can expect an incredibly significant decrease in our training and inference times for our neural network. 
+
+#### Tokio
+
+Tokio is an asynchronous runtime in Rust. Using it allows me to make multiple (kind of) simultaneous calls to Spotify when I use their API (details in [[Spotify Playlist Manager#Implementation|implementation]]). This drastically speeds up the generation of input-data, allowing the user to spend minimal time waiting for the app between user inputs.
+
+### SQLite
+
+SQLite is a lightweight SQL database engine. The size and complexity of our data is relatively small, so SQLite serves our purposes without being unnecessarily complicated. Additionally, the Burn package includes some built in methods to interact with SQLite databases, allowing us to easily integrate SQLite as a database management tool.
+
+### Rayon
+
+Rayon is a rust library that allows us to easily implement thread pools and convert our single-threaded application into a multi-threaded one. We expect somewhat significant decreases in our runtime by doing this, for the simple reason that using more resources will allow us to execute faster (the computational overhead accumulated by multi-threading is negligible in comparison to benefits). However, we do not expect major improvements despite our program being computationally heavy as we will implement the most computationally heavy task, the training, with the user's GPU rather than their CPU.
+
+## Implementation
+
+### High-Level Overview
+
+There are a couple of ways I imagine a user interacting with this app. We will explore these in this section in an abstracted and non-technical context.
+
+ The expected use case for our app would be a user setting their liked songs on spotify as their source of songs to put in playlists, and wanting to construct playlists based on the contexts in which they listen to particular track (Ex: songs for listening alone vs songs for listening in a group). However, we can abstract this use case so that any playlist can be chosen as the source for songs, allowing our app to expand its functionality with minimal overhead. In a generalized view, the goal of this project is to take a set of songs which we will call the motherlist, and construct several subsets of songs which we call sublists - these sublists are just the resulting playlists we want.
+
+In constructing these sublists, we have two independent considerations that need addressing.
+- Mutuality: Does the user want every song in the motherlist to be placed in one and only one sublist? If so, we can create a neural network that simply finds the most likely sublist to assign each track and stop there. This is the mutual case. If the user doesn't mind some songs being in multiple sublists, we need to construct a neural network that can classify our songs based on some other threshold. How do we discern if a song should also be included in the second most likely sublist it would be assigned to? This is the non-mutual case.
+	- In the language of set theory, where *S* is the set of our sublists, the mutual case is represented by$$
+(\forall S_{i}, S_{j} \in S )(S_{i} \cap S_{j} = \varnothing)
+$$
+- Completeness: Does the user want every song in their motherlist to be assigned to a sublist. Consider a user who very leniently adds to their liked songs (aka me), but wants their playlists to be a bit more selective (again, me).  This user would not necessarily want every song in their motherlist to end up in a sublist, and as such we need to "trash" some of the songs and find a may to set some type of threshold for songs that will not make it into any of the sublists. This is what we will call the incomplete case. Instead, a user could love every song in their motherlist and want to ensure every song will be in a sublist. This is the complete case.
+	- In the language of set theory, where *S* is the set of our sublists and *M* is our motherlist, the complete case is represented by $$
+
+$$
+
+Our neural network will implement any combination of these 2 factors, resulting in a total of four cases we need to address. We will begin by addressing the case with the lowest complexity and move to implementing higher complexity cases afterwards.
+#### Mutual and Complete
+
+The simplest and most intuitive way of turning our saved tracks into groups of playlists is by creating a bunch of playlists where every song in our saved tracks appears in exactly one of those playlists. In the language of set theory, we are partitioning the set of saved tracks.
+
+> Partitioning our saved tracks means to map every element within the set of saved tracks to a non-empty subset. Each element is included in only one of these subsets.

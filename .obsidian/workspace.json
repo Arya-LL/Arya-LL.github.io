@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "2c3a23418377d8fc",
+    "id": "9cf6819b656fd8ee",
     "type": "split",
     "children": [
       {
-        "id": "5e328a6c9ef224a9",
+        "id": "a63071d6919b11e9",
         "type": "tabs",
         "children": [
           {
-            "id": "915965c74b2b46f6",
+            "id": "8043e243f73a4588",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,21 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ee97d080c189a0ad",
+    "id": "42cf57c02524d08d",
     "type": "split",
     "children": [
       {
-        "id": "4e84c47b8c32f9c3",
+        "id": "c6d019b1db951539",
         "type": "tabs",
         "children": [
           {
-            "id": "b128ad9effab81aa",
+            "id": "1002674863c5c0fb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +43,12 @@
             }
           },
           {
-            "id": "ee5f65273dc0da6e",
+            "id": "e3e6531d1561aac4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "burn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +58,7 @@
             }
           },
           {
-            "id": "631abff123861c69",
+            "id": "2adb74a093e6f83e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "46d71f02a9b557f7",
+    "id": "13159672a2003d21",
     "type": "split",
     "children": [
       {
-        "id": "bc87b428f96baa1a",
+        "id": "c0da7e8a7d541dce",
         "type": "tabs",
         "children": [
           {
-            "id": "f6c618900ce1d687",
+            "id": "6cd6c220b483c69e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -98,7 +97,7 @@
             }
           },
           {
-            "id": "5944d509f83a81e8",
+            "id": "be58f39f04231cdd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -110,7 +109,7 @@
             }
           },
           {
-            "id": "5c55fac7c5c757e8",
+            "id": "54e72dae9462395d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,7 +120,7 @@
             }
           },
           {
-            "id": "d3efd7244a6eebf2",
+            "id": "4a59d5e82a0da49d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -147,82 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38eec544207e6f3b",
+  "active": "8043e243f73a4588",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "node_modules/typescript/ThirdPartyNoticeText.txt",
-    "node_modules/typescript/LICENSE.txt",
-    "node_modules/typescript/SECURITY.md",
-    "node_modules/typescript/README.md",
-    "node_modules/typescript/package.json",
-    "node_modules/vscode-css-languageservice/lib/esm/cssLanguageTypes.d.ts",
-    "node_modules/vscode-css-languageservice/lib/esm/cssLanguageService.d.ts",
-    "node_modules/vscode-css-languageservice/SECURITY.md",
-    "node_modules/vscode-css-languageservice/README.md",
-    "node_modules/vscode-css-languageservice/LICENSE.md",
-    "node_modules/vscode-css-languageservice/CHANGELOG.md",
-    "node_modules/vscode-css-languageservice/package.json",
-    "node_modules/vscode-css-languageservice/docs/customData.schema.json",
-    "node_modules/vscode-css-languageservice/docs/customData.md",
-    "node_modules/vscode-css-languageservice/docs",
-    "node_modules/vscode-html-languageservice/thirdpartynotices.txt",
-    "node_modules/vscode-css-languageservice/lib/esm/data/webCustomData.js",
-    "node_modules/vscode-css-languageservice/lib/esm/data",
-    "node_modules/vscode-html-languageservice/SECURITY.md",
-    "node_modules/vscode-html-languageservice/README.md",
-    "node_modules/vscode-html-languageservice/LICENSE.md",
-    "node_modules/vscode-html-languageservice/CHANGELOG.md",
-    "node_modules/vscode-html-languageservice/docs/customData.md",
-    "node_modules/css-select/README.md",
-    "node_modules/entities/readme.md",
-    "node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/README.md",
-    "node_modules/domutils/readme.md",
-    "node_modules/semver/README.md",
-    "node_modules/js-yaml/README.md",
-    "node_modules/vscode-languageserver-protocol/README.md",
-    "node_modules/js-yaml/CHANGELOG.md",
-    "node_modules/vscode-languageserver/README.md",
-    "node_modules/vscode-jsonrpc/README.md",
-    "node_modules/readable-stream/README.md",
-    "node_modules/readable-stream/GOVERNANCE.md",
-    "node_modules/vscode-nls/README.md"
-=======
-    "src/content/blog/first-post.md",
+    "public/assets/SpotifyPlaylists/MutualLatex.png",
+    "src/content/blog/Spotify Playlist Manager.md",
+    "src/content/blog/Yam Studios.md",
     "src/content/blog/Untitled.md",
+    "public/favicon.svg",
+    "public/assets/SpotifyPlaylists/MutalAndExclusive.png",
+    "public/assets/SpotifyPlaylists",
+    "public/astropaper-og.jpg",
+    "public/assets/logo.png",
+    "public/assets/logo.svg",
+    "public/assets/forrest-gump-quote.webp",
+    "public/assets/dev.svg",
+    "src/content/blog/first-post.md",
+    "src/content/blog/AI Consulting for WordsWorth Inc..md",
     "src/content/blog/Making a Website.md",
-    "Untitled.md",
-    "node_modules/@img/sharp-libvips-linuxmusl-x64/README.md",
-    "node_modules/@img/sharp-libvips-linuxmusl-x64/versions.json",
-    "node_modules/@img/sharp-libvips-linuxmusl-x64/package.json",
-    "node_modules/@img/sharp-libvips-linux-x64/README.md",
-    "node_modules/@img/sharp-libvips-linux-x64/versions.json",
-    "node_modules/@img/sharp-libvips-linux-x64/package.json",
-    "node_modules/astro-eslint-parser/node_modules/@astrojs/compiler/LICENSE",
-    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/LICENSE",
-    "node_modules/@divriots/jampack/node_modules/react-dom/README.md",
-    "node_modules/@divriots/jampack/node_modules/react-dom/package.json",
-    "node_modules/@divriots/jampack/node_modules/react-dom/build-info.json",
-    "node_modules/@divriots/jampack/node_modules/react-dom/unstable-native-dependencies.js",
-    "node_modules/@divriots/jampack/node_modules/react-dom/unstable-fizz.node.js",
-    "node_modules/eslint/node_modules/ajv/README.md",
-    "node_modules/@eslint/eslintrc/node_modules/ajv/README.md",
-    "node_modules/ts-node/README.md",
-    "node_modules/ts-node/node_modules/diff/release-notes.md",
-    "node_modules/ts-node/node_modules/diff/README.md",
-    "node_modules/ts-node/node_modules/diff/CONTRIBUTING.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/README.md",
-    "node_modules/tailwindcss/node_modules/postcss-selector-parser/README.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/CHANGELOG.md",
-    "node_modules/tailwindcss/node_modules/postcss-selector-parser/CHANGELOG.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/API.md",
-    "node_modules/tailwindcss/node_modules/postcss-selector-parser/API.md",
-    "node_modules/critters/node_modules/htmlparser2/README.md",
-    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/README.md",
-    "node_modules/astro-eslint-parser/node_modules/@astrojs/compiler/README.md",
-    "node_modules/@divriots/jampack/node_modules/react/README.md",
-    "node_modules/ts-node/dist-raw/README.md",
-    "node_modules/ts-node/dist-raw/NODE-LICENSE.md",
-    "node_modules/eslint-plugin-astro/node_modules/@typescript-eslint/types/README.md"
->>>>>>> 9c44e73357092a798eec78c63ca1eb23d87da4a0
+    "burn.md"
   ]
 }
