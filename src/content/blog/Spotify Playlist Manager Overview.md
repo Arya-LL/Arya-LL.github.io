@@ -17,7 +17,7 @@ I decided maintaining a few spotify playlists was too much effort so I learned a
 
 ## Table of Contents
 
-## What Even Is This or Overview
+## What Even Is This, AKA Overview
 
 ### Problem being addressed
 
@@ -121,7 +121,7 @@ Compared to the mutual and complete case, the mutual and incomplete case is simi
   <img src="/assets/SpotifyPlaylists/MutualandIncomplete.png" class="sm:w-1/ mx-auto" alt="Mutual and Incomplete illustration">
 </div>
 
-I mostly included the "T̊͑h̵̡̨͔̦̞̻̱̜̗͙̹̪̗͖̻͔ͪͯ̀̓̀ͫͯ̔̾̋ͩͤ̑̄̊̄́ͯ̒ͭ͘̚͟͡͝e V̸͎̀ͨ͝o̡͍̳̣̜̙̞̽ͮͨ̓͒ͯ̏͊̀̑̐ͥ͟͟͞͞͠ͅi̸̶̬̲̻̖̱̠͔̰̱͈͕͇̙͓̹̗̭ͣͮ́̀ͨͭ̀̓ͪͯͣ̌ͨ̂ͬ̈ͥ̇͑͌͘̕͘̚͜͜͠d̶̠̺̤̟̼̪̪͉̎ͬ͋̀̍ͧ͗͂̃̒̉ͅ" section for a visual aid and some humor, but the above diagram is entirely accurate to how our actual implementation will work. We are simply going to consider the void as another sublist, just one we won't eventually tell spotify we want to make a playlist from in our account. This allows us to effectively create a trashlist where we dump all the songs we don't want to be placed into playlists. As an analogy for this case, consider moving once again but using the KonMari method of organizing. This is the method popularized by Mari Kondo where (simplified explanation here) you keep only the things that spark joy for you. Thus, we throw away some things while moving, putting them into the bin rather than into any one box.
+I mostly included the "the void" section for a visual aid, but the above diagram is entirely accurate to how our actual implementation will work. We are simply going to consider the void as another sublist, just one we won't eventually tell spotify we want to make a playlist from in our account. This allows us to effectively create a trashlist where we dump all the songs we don't want to be placed into playlists. As an analogy for this case, consider moving once again but using the KonMari method of organizing. This is the method popularized by Mari Kondo where (simplified explanation here) you keep only the things that spark joy for you. Thus, we throw away some things while moving, putting them into the bin rather than into any one box.
 
 ### Non-mutual and Complete
 

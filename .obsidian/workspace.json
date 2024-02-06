@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a63071d6919b11e9",
+        "id": "f9c32d1748511869",
         "type": "tabs",
         "children": [
           {
-            "id": "8043e243f73a4588",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/assets/SpotifyPlaylists/MutualLatex.png"
-              }
-            }
-          },
-          {
-            "id": "f07425d0a85120a9",
+            "id": "80ae51f44e11c591",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,23 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f07425d0a85120a9",
+  "active": "80ae51f44e11c591",
   "lastOpenFiles": [
+    "public/assets/SpotifyPlaylists/MutualLatex.png",
+    "public/assets/SpotifyPlaylists/MutualandComplete.png",
+    "src/content/blog/Spotify Playlist Manager Overview.md",
     "public/assets/SpotifyPlaylists/NonmutualandIncomplete.png",
     "public/assets/SpotifyPlaylists/NonmutualandComplete.png",
     "public/assets/SpotifyPlaylists/CompleteLatex.png",
-    "public/assets/SpotifyPlaylists/MutualLatex.png",
     "public/assets/SpotifyPlaylists/MutualandIncomplete.png",
-    "src/content/blog/Spotify Playlist Manager Overview.md",
     "src/content/blog/Yam Studios.md",
     "src/content/blog/Untitled.md",
     "public/favicon.svg",
-    "public/assets/SpotifyPlaylists/MutualandComplete.png",
     "public/assets/SpotifyPlaylists",
     "public/astropaper-og.jpg",
     "public/assets/logo.png",
     "public/assets/logo.svg",
-    "public/assets/forrest-gump-quote.webp",
     "src/content/blog/first-post.md",
     "src/content/blog/AI Consulting for WordsWorth Inc..md",
     "src/content/blog/Making a Website.md",
