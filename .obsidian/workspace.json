@@ -11,15 +11,26 @@
             "id": "8043e243f73a4588",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "public/assets/SpotifyPlaylists/MutualLatex.png"
+              }
+            }
+          },
+          {
+            "id": "f07425d0a85120a9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager.md",
+                "file": "src/content/blog/Spotify Playlist Manager Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager.md",
+                "file": "src/content/blog/Spotify Playlist Manager Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager.md",
+                "file": "src/content/blog/Spotify Playlist Manager Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager.md"
+                "file": "src/content/blog/Spotify Playlist Manager Overview.md"
               }
             }
           }
@@ -146,20 +157,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8043e243f73a4588",
+  "active": "f07425d0a85120a9",
   "lastOpenFiles": [
+    "public/assets/SpotifyPlaylists/NonmutualandIncomplete.png",
+    "public/assets/SpotifyPlaylists/NonmutualandComplete.png",
+    "public/assets/SpotifyPlaylists/CompleteLatex.png",
     "public/assets/SpotifyPlaylists/MutualLatex.png",
-    "src/content/blog/Spotify Playlist Manager.md",
+    "public/assets/SpotifyPlaylists/MutualandIncomplete.png",
+    "src/content/blog/Spotify Playlist Manager Overview.md",
     "src/content/blog/Yam Studios.md",
     "src/content/blog/Untitled.md",
     "public/favicon.svg",
-    "public/assets/SpotifyPlaylists/MutalAndExclusive.png",
+    "public/assets/SpotifyPlaylists/MutualandComplete.png",
     "public/assets/SpotifyPlaylists",
     "public/astropaper-og.jpg",
     "public/assets/logo.png",
     "public/assets/logo.svg",
     "public/assets/forrest-gump-quote.webp",
-    "public/assets/dev.svg",
     "src/content/blog/first-post.md",
     "src/content/blog/AI Consulting for WordsWorth Inc..md",
     "src/content/blog/Making a Website.md",
