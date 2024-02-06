@@ -13,7 +13,7 @@ tags:
 description: I decided maintaining a few spotify playlists was too much effort so I learned a low-level programming language to create a neural network playlist creator and organizer.
 layout:
 ---
-I decided maintaining a few spotify playlists was too much effort so I learned a low-level programming language to create a neural network playlist creator and organizer. I am still implementing the project, so this is a technical and non-technical high-level overview of the project. Posts on the fine grained details will follow. The source code for this project is available [here!](https://www.github.com/Arya-LL/Spotify-Playlists)
+This project is my attempt at creating a tool that creates the auto-generated playlists of my dreams, with an added bonus of being a playlist maintainer. Once set up, a user can just add songs to their liked songs and my playlist manager will auto-sort those songs into the correct playlist. I am still implementing the project, so this post is simply both a technical and non-technical high-level overview of the project. Posts on the fine grained details will follow. The source code for this project is available [here!](https://www.github.com/Arya-LL/Spotify-Playlists)
 
 ## Table of Contents
 
@@ -30,8 +30,6 @@ My music taste is fairly bimodal, where I really like singing along to songs tha
 Because my music taste isn't unimodal, I can't just have one big playlist and put it on shuffle. If I'm in the car with friends, I'm skipping all the breakcore and hyperpop. If I'm trying to hunker down and burn through work, I'm skipping all the indie rock songs. I also always inevitably get tired of maintaining multiple playlists, and am now left with a huge graveyard of unused playlists.
 
 ## How to solve the problem
-
-This project is my attempt at creating a tool that creates the auto-generated playlists of my dreams, with an added bonus of being a playlist maintainer. Once set up, a user can just add songs to their liked songs and my playlist manager will auto-sort those songs into the correct playlist.
 
 A simple solution to this would be to create playlists split by genre, where we create one playlist for each genre (or user defined genre grouping) found in the liked songs. This approach, however, was not granular enough for me and I would disagree with some of the classifications.
 
