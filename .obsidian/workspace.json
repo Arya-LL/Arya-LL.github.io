@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager Overview.md",
+                "file": "src/content/blog/CV.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager Overview.md",
+                "file": "src/content/blog/CV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager Overview.md",
+                "file": "src/content/blog/CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Spotify Playlist Manager Overview.md"
+                "file": "src/content/blog/CV.md"
               }
             }
           }
@@ -148,23 +148,24 @@
   },
   "active": "80ae51f44e11c591",
   "lastOpenFiles": [
+    "src/content/blog/first-post.md",
+    "src/content/blog/CV.md",
+    "src/content/blog/Yam Studios.md",
+    "src/content/blog/Untitled.md",
+    "src/content/blog/Spotify Playlist Manager Overview.md",
+    "src/content/blog/Making a Website.md",
+    "src/content/blog/AI Consulting for WordsWorth Inc..md",
+    "AstroPaper-lighthouse-score.svg",
     "public/assets/SpotifyPlaylists/MutualLatex.png",
     "public/assets/SpotifyPlaylists/MutualandComplete.png",
-    "src/content/blog/Spotify Playlist Manager Overview.md",
     "public/assets/SpotifyPlaylists/NonmutualandIncomplete.png",
     "public/assets/SpotifyPlaylists/NonmutualandComplete.png",
     "public/assets/SpotifyPlaylists/CompleteLatex.png",
     "public/assets/SpotifyPlaylists/MutualandIncomplete.png",
-    "src/content/blog/Yam Studios.md",
-    "src/content/blog/Untitled.md",
     "public/favicon.svg",
     "public/assets/SpotifyPlaylists",
     "public/astropaper-og.jpg",
     "public/assets/logo.png",
-    "public/assets/logo.svg",
-    "src/content/blog/first-post.md",
-    "src/content/blog/AI Consulting for WordsWorth Inc..md",
-    "src/content/blog/Making a Website.md",
     "burn.md"
   ]
 }
