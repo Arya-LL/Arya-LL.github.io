@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/CV.md",
+                "file": "src/content/blog/Resume.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/CV.md",
+                "file": "src/content/blog/Resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/CV.md",
+                "file": "src/content/blog/Resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/CV.md"
+                "file": "src/content/blog/Resume.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "80ae51f44e11c591",
   "lastOpenFiles": [
-    "src/content/blog/first-post.md",
     "src/content/blog/CV.md",
+    "src/content/blog/Resume.md",
+    "src/content/blog/first-post.md",
     "src/content/blog/Yam Studios.md",
     "src/content/blog/Untitled.md",
     "src/content/blog/Spotify Playlist Manager Overview.md",
