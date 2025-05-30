@@ -9,18 +9,18 @@ tags:
   - Personal
 description: An in depth description of my qualifications and experiences
 ---
-This post is not a blog post. It is an incomplete summary of my skills and experiences. Each category is sorted chronologically instead of by importance. The sections I believe are most relevant to my current occupation and goals are [[#Education]], [[#AI and Large Language Model Consultant - Dec 2023 to April 2024]], [[#Undergraduate Research Project - Sep 2021 to May 2023]], and [[#Rutgers Astronomical Society Treasurer and President - May 2021 to May 2023]].
+This post is not a blog post. It is an incomplete summary of my skills and experiences. Each category is sorted chronologically instead of by importance. The sections I believe are most relevant to my current occupation and goals are [Education](https://arya-ll.github.io/posts/cv/#education), [AI and Large Language Model Consultant](https://arya-ll.github.io/posts/cv/#ai-and-large-language-model-consultant---dec-2023-to-april-2024), [Undergraduate Research Project](https://arya-ll.github.io/posts/cv/#undergraduate-research-project---sep-2021-to-may-2023), and [Rutgers Astronomical Society](https://arya-ll.github.io/posts/cv/#rutgers-astronomical-society-treasurer-and-president---may-2021-to-may-2023).
 
-If you would like to know more about any of these sections, please feel free to reach out via [email](arya.l.lakshmanan@gmail.com)!
+If you would like to know more about any of these sections, please feel free to reach out via [email](mailto:arya.l.lakshmanan@gmail.com)!
 
 # Table of Contents
 # Overview
 
-I am currently a masters' student in the scientific computing program at NYU, and I completed my undergraduate degree in astrophysics and financial economics at Rutgers University. In recent work, I developed an AI/LLM backend for StreamAlive using Node.js, researched the impact of supernovae on dark matter distributions using Python, tutored SAT math and science, and assisted in teaching a set theory course. Outside both schooling and work, I led the Rutgers Astronomical Society (RAS) for two years, taught myself Rust, Linux administration, and SQL. As hobbies, I enjoy long distance running, board games, and crocheting.
+I am currently a graduate student in the scientific computing program at NYU, and I completed my undergraduate degree in astrophysics and financial economics at Rutgers University. In recent work, I developed an AI/LLM backend for StreamAlive using Node.js, researched the impact of supernovae on dark matter distributions using Python, tutored SAT math and science, and assisted in teaching a set theory course. Outside both schooling and work, I led the Rutgers Astronomical Society (RAS) for two years, taught myself Rust, Linux administration, and SQL. As hobbies, I enjoy long distance running, board games, and crocheting.
 # Education
 ## New York University - May 2024 - Now
 
-- Masters' in scientific computing
+- Master's in scientific computing
 - GPA: 3.45/4.00
 - Completed Coursework: Machine Learning, Numerical Methods I/II, Fundamental Algorithms, Programming Languages, Methods of Applied Mathematics
 ## Rutgers University - Sep 2019 to May 2023
