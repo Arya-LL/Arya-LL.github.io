@@ -10,61 +10,69 @@ tags:
 description: My resume as a markdown file
 ---
 # Arya Lyngdoh Lakshmanan
-- Location: Basking Ridge, New Jersey 07920
-- Links: [Email](mailto:arya.l.lakshmanan@gmail.com), [Linkedin](http://linkedin.com/in/arya-lyngdoh-lakshmanan), [Personal Website (Where you are!)](https://arya-ll.github.io/), [GitHub](https://github.com/Arya-LL/)
+- Location: Bushwick, Brooklyn, 11237
+- Links: [Email](mailto:arya.l.lakshmanan@gmail.com), [Linkedin](http://linkedin.com/in/arya-lyngdoh-lakshmanan), [Personal Website](https://arya-ll.github.io/), [GitHub](https://github.com/Arya-LL/)
 
 # Education
-## Rutgers University, New Brunswick / May 2023
-- B.S. Astrophysics and Economics, Math minor, Certificate in Financial Economics
-- GPA: 3.75/4.00 - Magna Cum Laude
-- Specialized in financial analysis, machine learning methods, and interdisciplinary statistical modeling.
-## Ridge High School, Basking Ridge / May 2019
+## New York University / 2026
+- M.S. Scientific Computing
+- **Focus:** High-performance modeling/forecasting
+- **Courses:** Numerical Methods, Machine Learning, Deep Learning, GPU Architecture & Programming
 
-# Honors and Achievements
-- Recipient of Highest Honors in Astrophysics, Aryabhata Endowed Award in Astronomy, and the Robert L. Sells Scholarship
-- Recognized as a Henry Rutgers Scholar and Paul Robeson Thesis Scholar
-- GRE Scores: 170/170 quantitative, 163/170 verbal, 840/990 physics
-- Recipient of the SAS Excellence Award for 2020-21 and 2021-22
+## Rutgers University / May 2023
+- B.S. Astrophysics & Financial Economics
+- **Awards:** Highest Honors, Aryabhata Endowed Award, Magna Cum Laude
+- **Thesis:** Statistical modeling of dark matter and supernovae
 
 # Skills
-- Programming: Python (pandas, PyTorch, tensorflow), R, Rust, SQL
-- Software: Linux, Docker, Git, Mathematica, LaTeX, Excel/Google Sheets
-- Non-technical: Presentation, Communication, 
+- **Languages:** C++, Rust, CUDA, Python, SQL, R
+- **Machine Learning:** PyTorch, Burn (PyTorch equivalent), Transformers, LLM Fine-tuning
+- **Systems & Tools:** Linux + Bash, Docker, Git, LaTeX, Node.js
 
 # Work Experience
 
-## AI and LLM Consultant / WordsworthTech, Inc. / Remote
-12/2023 - Present
+## AI and LLM Consultant / WordsworthTech Inc
+Dec. 2023 – Apr. 2024, May 2025 – Aug. 2025
 
-- Developed a NodeJS backend to generate finely tuned, cost-efficient Gemini and GPT interactions to easily integrate into their current development stack.
+- Architected a Node.js API to orchestrate low-latency interactions between the StreamAlive platform and LLMs (Gemini/GPT), optimizing for high-concurrency live session environments.
+- Developed custom parsing logic and validation layers to handle stochastic LLM outputs, ensuring strict type-safety and reliability for downstream application logic.
+- Established quantitative metrics to monitor token usage and response quality, implementing caching and prompt-tuning strategies that reduced operational costs while maintaining model performance.
 
-## Researcher / Rutgers Physics & Astronomy / Piscataway
-09/2021 - 05/2023
+## Undergraduate Research Assistant / Rutgers University
+Aug. 2021 – May 2023
 
-- Analyzed the effect of frequent supernovae on the dark matter within dwarf galaxies.
-- Developed data analysis methods and regression models to estimate distributions of dark matter.
-- Programmed testing routines to minimize error margins and computation times.
-- Presented a summary of findings through a written thesis and oral presentation.
-  
-## Teaching Assistant / Rutgers Learning Center / New Brunswick
-09/2021 - 05/2023
+- Researched the effect of frequent supernovae on the dark matter within dwarf galaxies under Dr. Kristen McQuinn.
+- Developed regression models in Python to estimate dark matter distributions in dwarf galaxies.
+- Engineered automated testing routines for galaxy simulations, reducing computation time and minimizing error margins in large-scale dataset analysis.
 
-- Taught and mentored 20-30 undergraduate students four semesters consecutively with a supervising professor two times a week in an upper-level math course about formal based logic.  
+# Projects
 
-# Societies and Extracurriculars 
+## Multi-GPU Performance Analytical Model | CUDA, C++, Python
+Sep. 2025 – Dec. 2025
 
-## President and Treasurer / Rutgers Astronomical Society / Piscataway
-05/2021 - 05/2023
+- Formulated a framework to predict multi-GPU speedups by quantifying computation time versus communication latency (PCIe) and synchronization overhead.
+- Implemented micro-benchmarks in CUDA to calibrate hardware parameters (PCIe throughput, FLOPs) on arbitrary Nvidia architectures.
+- Validated the model against bottle necked algorithms (N-Body, Conjugate Gradient), successfully identifying hardware saturation points and scaling limits.
 
-- Led weekly observatory use and astronomy seminars averaging 100 attendees.
-- Served as undergraduate astronomy representative for university events and fairs.
-- Managed several 100+ people events in collaboration with other STEM organizations.
-- Created and maintained an LGBTQ+ safe space with Rutgers minority advocacy groups.
+## Rust/CUDA Simulation Engine | Rust, wgpu, CUDA
+Sep. 2025 – Present
 
-# Gap Year Projects
+- Re-engineered a solar system simulation engine in Rust, migrating from a legacy WebGL stack to wgpu.
+- Accelerated procedural texture generation by implementing a specialized version Perlin Noise in CUDA.
 
-- Self-taught Rust and used it to develop an asynchronous and multi-threaded multi-head attention neural network based Spotify playlist organizer and maintainer with minimal user input.
-- Started a fiver person dev group to develop an indie video game over the span of three months.
-- Contributed to open-source Rust projects, entered a hackathon, and implemented a framework for an independent game in development.
-- Began long distance running and am now a Bi-weekly half-marathoner
-- Developed a personal website ([arya-LL.github.io](http://arya-ll.github.io)) to document and showcase these projects.
+## Rust-Based Deep Learning Audio Classifier | Rust, Burn
+Aug. 2024 – Present
+
+- Engineered an asynchronous, multi-threaded deep learning pipeline in Rust using the Burn framework to classify audio features with Transformer-based attention mechanisms.
+- Implemented a classification batcher with dynamic padding masks to efficiently process variable-length sequential data, optimizing memory usage during inference.
+
+# Societies and Extracurriculars
+
+## President and Treasurer / Rutgers Astronomical Society
+Sep 2021 – May 2023
+
+- Managed budget and led weekly public seminars for 100+ attendees; served as department liaison for university events.
+- Created and maintained an LGBTQ+ safe space in collaboration with Rutgers minority advocacy groups.
+
+## Indie Game Development Lead
+- Founded and orchestrated a 5-person agile development team to build an independent video game over a 3-month rapid development cycle.
