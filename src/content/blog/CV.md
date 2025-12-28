@@ -15,8 +15,10 @@ If you would like to know more about any of these sections, please feel free to 
 
 # Table of Contents
 # Overview
+I am a Master's student in Scientific Computing at NYU, specializing in **High-Performance Computing (HPC)**, **GPU Architecture**, and **Financial Modeling**. My expertise lies at the intersection of systems engineering and physics, where I leverage Rust, CUDA, and C++ to build reliable, parallelized simulation engines.
 
-I am currently a graduate student in the scientific computing program at NYU, and I completed my undergraduate degree in astrophysics and financial economics at Rutgers University. In recent work, I developed an AI/LLM backend for StreamAlive using Node.js, researched the impact of supernovae on dark matter distributions using Python, tutored SAT math and science, and assisted in teaching a set theory course. Outside both schooling and work, I led the Rutgers Astronomical Society (RAS) for two years, taught myself Rust, Linux administration, and SQL. As hobbies, I enjoy long distance running, board games, and crocheting.
+Previously, I graduated *Magna Cum Laude* from Rutgers University with a dual focus in Astrophysics and Financial Economics. This document serves as a comprehensive summary of my technical qualifications, research history, and leadership roles.
+
 # Education
 ## New York University - May 2024 - Now
 
@@ -39,53 +41,75 @@ I am currently a graduate student in the scientific computing program at NYU, an
 
 # Experience
 
-## AI and Large Language Model Consultant - Dec 2023 to April 2024
+## AI and Large Language Model Consultant - Dec 2023 to Apr 2024, May 2025 to Aug 2025
+*Wordsworth Tech Inc. (StreamAlive)*
+
 As an AI and LLM Consultant, I proposed and developed the integration of generative AI into WordsworthTech's [StreamAlive](https://www.streamalive.com/) product, focusing on enhancing functionality while managing costs effectively. 
-- **Core API Development:** I developed a NodeJS API to seamlessly integrate cost-efficient Gemini and GPT models into the existing development stack. Due to the non-deterministic nature of LLM outputs, I additionally developed validation techniques and custom parsers for the AI responses. I self-taught Node.js through this project.
-- **Plugin & Tool Expansion:** To broaden the API's utility, I created custom Stream Deck and Google Slides plugins. These tools provided users with direct access to the generative AI capabilities within their existing workflows.
-- **Performance & Strategy:** I established quantitative metrics to monitor and analyze the quality and cost-effectiveness of the AI models. I delivered weekly reports and strategic recommendations to senior developers, guiding decisions on model tuning, cost optimization, and future AI product pipeline expansions.
-## Undergraduate Research Project - Sep 2021 to May 2023
+- **Core API Development:** I developed a NodeJS API to seamlessly integrate cost-efficient LLM models (Gemini/OpenAI) into the existing development stack. To handle the variability of AI outputs, I built custom validation logic and parsers to ensure the data used by the application was consistent and reliable.
+- **Performance & Strategy**: I established metrics to track token usage and response quality. Using these, I implemented caching and prompt-tuning strategies that reduced operational costs while maintaining model performance.
+- **Tooling Expansion**: I created custom plugins for Stream Deck and Google Slides, allowing users to access the platform's generative AI features directly from their existing workflows.
+## Research Assistant - Sep 2021 to May 2023
+*Rutgers University | Advisor: Dr. Kristen McQuinn*
 
-I researched the impact that time-periods with heightened star deaths/bursts have on the dark matter distributions within nearby dwarf galaxies. In practice, I was given data sources for which I developed my own cleaning methods, analysis, modelling, and error estimation using Python. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of May 2025) investigation, and I presented my findings through my senior thesis.
+I researched the impact that time-periods with heightened star deaths/bursts have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of Dec 2025) investigation.
 - **Data Validation:** I gathered archival images from the Spitzer and Hubble space telescopes, and I developed data cleaning Python scripts to identify and interpolate over contaminants. I validated the cleaning process by sampling and analyzing the data distributions over the interpolated regions.
-- **Data Analysis and Modeling:** I created best-fit models using Python to represent the data accurately. I analyzed the impact of varying my chosen initial guesses/hyper-parameters on the resulting models and ensured that the models were stable.
-- **Outcomes:** The project culminated in a comprehensive written thesis and oral presentation. I was given several awards for my work and presentation of this project. Most notably, I received the  [[#Henry Rutgers Scholar Award - May 2023|Henry Rutgers Scholar Award]] and  [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]] for this work.
+- **Data Analysis and Modeling:** I created best-fit models using Python to represent the data accurately. I analyzed the impact of varying initial guesses/hyper-parameters on the resulting models and ensured that the models were stable.
+- **Outcomes**: I presented my findings as an undergraduate thesis, earning me [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]].
 ## Learning Assistant - Sep 2021 to May 2023
+*Rutgers Learning Center*
 
-Taught and mentored over 80 undergraduate students in an upper-level course focused on formal-based logic and set theory. Developed and tailored teaching materials and exercises to meet diverse student group needs. Enhanced students' analytical skills and effectively communicated complex mathematical concepts.
+- **Instruction**: I taught and mentored over 80 undergraduate students through recitations for an upper-level course focused on formal-based logic and set theory.
+- **Content Creation**: I developed and tailored teaching materials and exercises to meet diverse student group needs. 
 
-## Unmetric Marketing Intern - Jul 2018 to Aug 2018
+## Marketing Intern - Jul 2018 to Aug 2018
+*Unmetric*
 
-Analyzed an 8,000-lead dataset using advanced Excel to refine the marketing funnel. Presented findings and strategic suggestions to the marketing team.
+- **Lead Analysis** : I analyzed an 8,000-lead dataset using advanced Excel to refine the marketing funnel. The position culminated with me presenting my findings and strategic suggestions to the marketing team.
+
+# Projects
+## Multi-GPU Performance Analytical Model - Sep 2025 to Dec 2025
+*Technologies: CUDA, C++, Python*
+
+I formulated and validated a predictive framework to analyze parallel scaling efficiency across multi-GPU clusters. The project focused on quantifying the trade-offs between raw computation throughput and interconnect latency (PCIe) to identify hardware bottlenecks in high-performance computing workloads.
+- **Hardware Calibration:** I implemented low-level micro-benchmarks in CUDA to measure hardware specific timing costs, such as PCIe throughput and peak FLOPs. This allowed me to generalize the model to arbitrary Nvidia architectures/devices.
+- **Validation Strategy:** I validated the analytical model against standard bottlenecked algorithms, such as N-Body simulations (compute-bound) and Conjugate Gradient solvers (memory-bound), successfully identifying hardware saturation points.
+- **Scaling Optimization:** By analyzing synchronization overhead versus computation time, I developed a set of heuristics to recommend optimal scaling strategies for parallelized algorithms.
+
+## Rust/CUDA Simulation Engine - Sep 2025 to Present
+*Technologies: Rust, wgpu, CUDA, C*
+
+I architected a high-performance Newtonian gravitational model using finite differences to model sci-fi solar systems, migrating the project from a legacy WebGL/JavaScript stack to Rust, CUDA, and wgpu.
+- **Parallel Texture Synthesis:** I engineered specialized CUDA kernels to generate high-resolution planetary textures. By offloading procedural noise algorithms to the GPU, I achieved real-time synthesis speeds that allow for a fluid user experience.
+- **Deterministic Physics:** I implemented a parametric modeling pipeline based on Keplerian orbital mechanics and realistic planet compositions. This ensured that that procedurally generated systems—including frost lines and atmospheric compositions—strictly adhered to physical laws and deterministic bounds.
+- **Systems Architecture:** The migration to Rust and wgpu allowed for a unified graphics backend that reduced runtime overhead and guaranteed handling of edge cases.
+## Rust-Based Deep Learning Audio Classifier - Aug 2024 to Present
+*Technologies: Rust, Burn, Tokio*
+
+I engineered an asynchronous, multi-threaded deep learning inference pipeline using the Burn framework to classify complex audio features. The system was designed to handle high-throughput data ingestion without blocking the main event loop, utilizing Rust's ownership model to guarantee thread safety.
+- **Transformer Architecture:** I deployed Transformer-based attention mechanisms to process sequential audio data, implementing a custom classification batcher.
+- **Memory Optimization:** I developed dynamic padding masks to efficiently handle variable-length audio sequences. This eliminated redundant computation during inference and significantly optimized GPU memory usage.
+- **Concurrency:** Using Tokio, I designed a non-blocking data ingestion layer capable of managing concurrent API requests, ensuring the system could scale to handle high-frequency input streams.
 # Organizations
 
 ## Rutgers Astronomical Society Treasurer and President - May 2021 to May 2023
 
-I led the [Rutgers Astronomical Society (RAS)](https://ras.physics.rutgers.edu/) - which is one of the most active student organizations at Rutgers, and whose goal is astronomy outreach and education. As treasurer and president, I greatly increased student membership and engagement, created an astrophotography program, and initiated collaborative projects with other student organizations.
-- **Leadership:** I orchestrated weekly public observing nights and astronomy seminars, consistently drawing an average of 100 attendees. I drastically increased student engagement by creating and managing more activities and roles for members to participate and volunteer.
-- **Initiatives and Expansion:** I created and organized two annual special projects - a state park trip for naked-eye nighttime observing and a joint engineering/physics outreach night with two other undergraduate societies. I additionally founded and sourced equipment for two new routine activities - astrophotography lessons and fundraising through selling merchandise. All of these initiatives are still in effect as of May 2025 and directly led to a growth in visitors, members, and engagement.
-- **Public Speaking & Representation:** For our weekly meetings, I frequently delivered presentations on complex topics like classical astronomy, dark matter, and cosmology to audiences composed by everyone from elementary school students  to astronomy professors. I additionally spoke as the undergraduate representative of the astronomy department at special events, such as a science festival at Bell Labs, a yearly department banquet, and other university-wide events.
-- **Community and Inclusivity:** I created and solidified RAS's position as an inclusive organization through collaboration with minority advocacy groups.
+I led the [Rutgers Astronomical Society (RAS)](https://ras.physics.rutgers.edu/), a student organization dedicated to public outreach and education. As treasurer and president, I made RAS one of the top 5 most attended student organizations in Rutgers by developing several lasting programs and securing funding for the organization's expansions.
+- **Leadership:** I orchestrated weekly public observing nights and astronomy seminars for 100+ attendees. I created lasting programs by expanding volunteer roles and developing a merchandise program, resulting in sustainable funding and manpower.
+- **Initiatives and Expansion:** I created and organized two annual special projects to increase the organization's reach - a state park trip for naked-eye nighttime observing and a joint engineering/physics outreach night with two other undergraduate societies. I also founded an astrophotography program as a routine activity, allowing for access to education and tooling without barriers to entry.
+- **Public Speaking**: I delivered presentations in both weekly meetings  and science fairs on complex topics like classical astronomy, dark matter, and cosmology to audiences ranging from elementary school students to astronomy professors.
+- **Community and Inclusivity:** I spearheaded RAS's position as an LGBTQ+ safe space through collaboration with minority advocacy groups.
 
-## E-Sports Club Founder - Sep 2018 to May 2019
-
-I founded & managed the E-Sports club during senior year of high school, resulting in 100+ members in less than 5 months. In my time there, I organized teams within the club, negotiated for room and technology from the school, and continuously drove recruitment efforts.
-
-## High School Tennis Captain - Sep 2018 to May 2019
+## High School Organizations
+### E-Sports Club Founder - Sep 2018 to May 2019
 
 I founded & managed the E-Sports club during senior year of high school, resulting in 100+ members in less than 5 months. In my time there, I organized teams within the club, negotiated for room and technology from the school, and continuously drove recruitment efforts.
+### High School Tennis Captain - Sep 2018 to May 2019
 
 # Post Graduation - May 2023 to Jan 2024
 
 ## Yam-Studios; Game Development
 
 Founded and led a five-person team (Yam Studios) in a three-month indie game project, "Passing the Torch," using Unreal Engine 5. Managed project logistics (Obsidian, Trello), directed game design, and coordinated a diverse team of specialists.
-
-## Technical Skill Development
-
-Achieved proficiency in Rust, JavaScript, NodeJS, and TypeScript through self-study, applying these skills in consulting and open-source projects. Transitioned to Linux for all home systems, becoming proficient in system administration. Learned SQL (PostgreSQL) for handling large datasets and Docker for containerization.
-## Data Analytics Tools; Docker and SQL
-
 Learned SQL and specifically PostgreSQL in order to store and query large datasets.
 
 ## Hackathons
