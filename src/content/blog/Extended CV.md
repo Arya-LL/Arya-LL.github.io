@@ -1,7 +1,7 @@
 ---
 author: Arya Lyngdoh Lakshmanan
 pubDatetime: 2025-12-31T18:31:15Z
-title: C/V
+title: Extended C/V
 slug: extended-cv
 featured: true
 draft: false
@@ -15,7 +15,7 @@ M.S. Scientific Computing student at NYU specializing in High-Performance Comput
 
 This document provides a detailed overview of my technical background, research experience, and leadership roles, with emphasis on systems engineering, GPU computing, and applied machine learning. The sections most relevant to my current skills and goals are [Education](https://arya-ll.github.io/posts/cv/#education), [AI and Large Language Model Consultant](https://arya-ll.github.io/posts/cv/#ai-and-large-language-model-consultant---dec-2023-to-april-2024), [Undergraduate Research Project](https://arya-ll.github.io/posts/cv/#undergraduate-research-project---sep-2021-to-may-2023), and [Rutgers Astronomical Society](https://arya-ll.github.io/posts/cv/#rutgers-astronomical-society-treasurer-and-president---may-2021-to-may-2023).
 
-For a more concise version of this C/V that focuses solely on professional experiences and skills, please instead read [[CV|this CV]].
+For a more concise version of this C/V that focuses solely on professional experiences and skills, please instead read [CV](https://arya-ll.github.io/posts/cv/).
 # Table of Contents
 
 # Education

@@ -49,7 +49,8 @@
               "title": "CV"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Resume.md",
+                "file": "src/content/blog/Extended CV.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Resume"
+              "title": "Outline of Extended CV"
             }
           }
         ],
@@ -198,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80ae51f44e11c591",
+  "active": "d2fc1b418263a1b8",
   "lastOpenFiles": [
     "src/content/blog/CV.md",
     "src/content/blog/Extended CV.md",

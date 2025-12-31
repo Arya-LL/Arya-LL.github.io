@@ -7,13 +7,13 @@ featured: true
 draft: false
 tags:
   - Personal
-description: An in depth description of my qualifications and experiences
+description: An in depth description of my most relevant qualifications and experiences
 ---
 
 # Overview
 M.S. Scientific Computing student at NYU specializing in High-Performance Computing (HPC), GPU Architecture, and Financial Modeling. Background in Astrophysics and Financial Economics. Experienced in architecting low-latency ML pipelines and parallelized simulation engines using Rust, CUDA, and C++.
 
-For a more complete version of this C/V that also describes non-professional experiences and older/less essential works, please instead read [[Extended CV|this CV]].
+For a more complete version of this C/V that also describes non-professional experiences and older/less essential works, please instead read [CV](https://arya-ll.github.io/posts/extended-cv/).
 
 # Table of Contents
 
