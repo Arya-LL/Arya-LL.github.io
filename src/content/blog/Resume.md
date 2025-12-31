@@ -1,6 +1,6 @@
 ---
 author: Arya Lyngdoh Lakshmanan
-pubDatetime: 2024-02-19T02:22:31Z
+pubDatetime: 2025-12-31T18:31:15Z
 title: Resume
 slug: resume
 featured: true

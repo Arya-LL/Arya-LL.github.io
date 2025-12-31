@@ -49,8 +49,7 @@
               "title": "CV"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/CV.md",
+                "file": "src/content/blog/Resume.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CV"
+              "title": "Outline of Resume"
             }
           }
         ],
@@ -199,10 +198,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40832d378d916df4",
+  "active": "80ae51f44e11c591",
   "lastOpenFiles": [
-    "src/content/blog/Extended CV.md",
     "src/content/blog/CV.md",
+    "src/content/blog/Extended CV.md",
     "src/content/blog/Resume.md",
     "src/content/blog/Making a Website.md",
     "src/content/blog/Untitled.md",

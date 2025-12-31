@@ -1,8 +1,8 @@
 ---
 author: Arya Lyngdoh Lakshmanan
-pubDatetime: 2024-02-12T16:27:00Z
+pubDatetime: 2025-12-31T18:31:15Z
 title: C/V
-slug: cv
+slug: extended-cv
 featured: true
 draft: false
 tags:
