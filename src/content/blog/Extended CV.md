@@ -13,8 +13,9 @@ description: An in depth description of my qualifications and experiences
 # Overview
 M.S. Scientific Computing student at NYU specializing in High-Performance Computing (HPC), GPU Architecture, and Financial Modeling. Background in Astrophysics and Financial Economics. Experienced in architecting low-latency ML pipelines and parallelized simulation engines using Rust, CUDA, and C++.
 
-For a more complete version of this C/V that also describes non-professional experiences and older/less essential works, please instead read [[Extended CV|this CV]].
+This document provides a detailed overview of my technical background, research experience, and leadership roles, with emphasis on systems engineering, GPU computing, and applied machine learning. The sections most relevant to my current skills and goals are [Education](https://arya-ll.github.io/posts/cv/#education), [AI and Large Language Model Consultant](https://arya-ll.github.io/posts/cv/#ai-and-large-language-model-consultant---dec-2023-to-april-2024), [Undergraduate Research Project](https://arya-ll.github.io/posts/cv/#undergraduate-research-project---sep-2021-to-may-2023), and [Rutgers Astronomical Society](https://arya-ll.github.io/posts/cv/#rutgers-astronomical-society-treasurer-and-president---may-2021-to-may-2023).
 
+For a more concise version of this C/V that focuses solely on professional experiences and skills, please instead read [[CV|this CV]].
 # Table of Contents
 
 # Education
@@ -30,7 +31,7 @@ For a more complete version of this C/V that also describes non-professional exp
 - Majors: Astrophysics and Economics
 - Minor: Math
 - Certificate in Financial Economics
-- Awards: [[#Honors and Awards|See awards section]]
+- Awards: [[#Henry Rutgers Scholar Award - May 2023|Henry Rutgers Scholar Award]],  [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]],  [[#Aryabhata Endowed Award in Astronomy - May 2023|Aryabhata Endowed Award in Astronomy]],  [[#Robert L. Sells Scholarship - May 2022|Robert L. Sells Scholarship]],  [[#SAS Paul Robeson Scholar - May 2023|Paul Robeson Scholar]],  [[#SAS Excellence Award - May 2021, May 2022|Excellence Award]]
 # Experience
 
 ## AI and Large Language Model Consultant - Dec 2023 to Apr 2024, May 2025 to Aug 2025
@@ -43,7 +44,7 @@ As an AI and LLM Consultant, I proposed and developed the integration of generat
 ## Research Assistant - Sep 2021 to May 2023
 *Rutgers University | Advisor: Dr. Kristen McQuinn*
 
-I researched the impact that periods of elevated supernova activity have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of Dec 2025) investigation.
+I researched the impact that time-periods with heightened star deaths/bursts have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of Dec 2025) investigation.
 - **Data Validation:** I gathered archival images from the Spitzer and Hubble space telescopes, and I developed data cleaning Python scripts to identify and interpolate over contaminants. I validated the cleaning process by sampling and analyzing the data distributions over the interpolated regions.
 - **Data Analysis and Modeling:** I created best-fit models using Python to represent the data accurately. I analyzed the impact of varying initial guesses/hyper-parameters on the resulting models and ensured that the models were stable.
 - **Outcomes**: I presented my findings as an undergraduate thesis, earning me [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]].
@@ -86,9 +87,64 @@ I led the [Rutgers Astronomical Society (RAS)](https://ras.physics.rutgers.edu/)
 - **Public Speaking**: I delivered presentations in both weekly meetings  and science fairs on complex topics like classical astronomy, dark matter, and cosmology to audiences ranging from elementary school students to astronomy professors.
 - **Community and Inclusivity:** I spearheaded RAS's position as an LGBTQ+ safe space through collaboration with minority advocacy groups.
 
+## Yam-Studios; Game Development
+
+- Founded and led a five-person team (Yam Studios) in a three-month indie game project using Unreal Engine 5.
+- Managed project logistic, directed game design, and coordinated a diverse team of specialists.
+
 # Honors and Awards
 
-- Henry Rutgers Scholar Award (top independent research honor, 2023)
-- Highest Honors in Astrophysics (1 of 2 graduates, 2023)
-- Aryabhata Endowed Award in Astronomy (2023)
-- Robert L. Sells Scholarship (2022)
+## Henry Rutgers Scholar Award - May 2023
+
+Issued by Rutgers School of Arts and Sciences.
+The Henry Rutgers Scholar Award of the School of Arts and Sciences recognizes graduating seniors who have completed outstanding independent research projects leading to an interdepartmental thesis or a thesis in their major field of study. The awards are offered across all departments of the School of Arts and Sciences, and so represent only the very finest achievements of our students.
+
+## Highest Honors in Astrophysics - May 2023
+
+Issued by Rutgers Physics & Astronomy Department.
+This honor was only given to myself and one other graduating senior among all graduating seniors in astrophysics. It was given for an excellent academic record and my research project
+
+## Aryabhata Endowed Award in Astronomy - May 2023
+
+Issued by Rutgers Physics & Astronomy Department.
+The Aryabhata Endowed Award in Astronomy is given annually to a physics and astronomy undergraduate who, in the judgment of the physics faculty, has demonstrated outstanding academic performance in astronomy.
+
+## Robert L. Sells Scholarship - May 2022
+
+Issued by Rutgers Physics & Astronomy Department.
+The Robert L. Sells Scholarship is awarded annually to two Rutgers physics majors who, in the judgment of the physics faculty, have demonstrated outstanding academic excellence.
+
+## SAS Paul Robeson Scholar - May 2023
+
+Issued by Rutgers School of Arts and Sciences(SAS).
+Award recognizing all students within SAS who complete a department-based honors thesis.
+
+## SAS Excellence Award - May 2021, May 2022
+
+Issued by Rutgers School of Arts and Sciences(SAS).
+Awardees are invited to apply for an excellent academic record. They are then awarded contingent on a strong record of service to the university and/or the community and outstanding essay.
+
+# Test Scores
+
+## General GRE - Sep 2022
+
+Quantitative Reasoning: 170/170, 96th percentile
+Verbal Reasoning: 163/170, 92nd percentile
+Analytical Writing: 4/6, 54th percentile
+## Physics Subject GRE - Oct 2022
+
+Physics: 840, 70th percentile
+Classical Mechanics: 088, 79th percentile
+Electromagnetism: 083, 71st percentile
+Quantum Mechanics & Atomic Physics: 088, 79th percentile
+# Volunteering
+
+## Scio Virtual - Apr 2021 to Jul 2021
+
+I taught a class of 14 students on the fundamentals of astronomy and physics. The students ranged from elementary to high school, and I developed my own syllabus and activities to engage accross this age range. I taught the class virtually and utilized the subject to expose the students to data analysis and thinking with physical models. The proceeds from my class went towards COVID-19 relief through foodbanks connected with ScioVirtual.
+## Leap for Lungs - Jan 2019 to Jun 2019
+
+Leap for Lungs built the world’s largest hopscotch course to raise funds for lung cancer research. I created marketing materials and organized transportation for the organization.
+## Raptor Trust - Feb 2017 to May 2017
+
+I volunteered at a bird hospital and sanctuary where I fed and cared for 40 or so recovering birds, maintained 10 enclosures, restocked food and infirmary supplies, and cleaned towels and beds
