@@ -46,7 +46,7 @@ As an AI and LLM Consultant, I proposed and developed the integration of generat
 I researched the impact that periods of elevated supernova activity have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of Dec 2025) investigation.
 - **Data Validation:** I gathered archival images from the Spitzer and Hubble space telescopes, and I developed data cleaning Python scripts to identify and interpolate over contaminants. I validated the cleaning process by sampling and analyzing the data distributions over the interpolated regions.
 - **Data Analysis and Modeling:** I created best-fit models using Python to represent the data accurately. I analyzed the impact of varying initial guesses/hyper-parameters on the resulting models and ensured that the models were stable.
-- **Outcomes**: I presented my findings as an undergraduate thesis, earning me [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]].
+- **Outcomes**: I presented my findings as an undergraduate thesis, earning me Highest Honors in Astrophysics
 ## Teaching Assistant - Sep 2021 to May 2023
 *Rutgers Learning Center*
 
