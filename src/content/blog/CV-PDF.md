@@ -103,47 +103,49 @@ I led the Rutgers Astronomical Society (RAS)(https://ras.physics.rutgers.edu/), 
 
 ## Henry Rutgers Scholar Award - May 2023
 
-Issued by Rutgers School of Arts and Sciences.
-The Henry Rutgers Scholar Award of the School of Arts and Sciences recognizes graduating seniors who have completed outstanding independent research projects leading to an interdepartmental thesis or a thesis in their major field of study. The awards are offered across all departments of the School of Arts and Sciences, and so represent only the very finest achievements of our students.
+- Issued by Rutgers School of Arts and Sciences.
+- The Henry Rutgers Scholar Award of the School of Arts and Sciences recognizes graduating seniors who have completed outstanding independent research projects leading to an interdepartmental thesis or a thesis in their major field of study. The awards are offered across all departments of the School of Arts and Sciences, and so represent only the very finest achievements of our students.
 
 ## Highest Honors in Astrophysics - May 2023
 
-Issued by Rutgers Physics & Astronomy Department.
-This honor was only given to myself and one other graduating senior among all graduating seniors in astrophysics. It was given for an excellent academic record and my research project
+- Issued by Rutgers Physics & Astronomy Department.
+- This honor was only given to myself and one other graduating senior among all graduating seniors in astrophysics. It was given for an excellent academic record and my research project
 
 ## Aryabhata Endowed Award in Astronomy - May 2023
 
-Issued by Rutgers Physics & Astronomy Department.
-The Aryabhata Endowed Award in Astronomy is given annually to a physics and astronomy undergraduate who, in the judgment of the physics faculty, has demonstrated outstanding academic performance in astronomy.
+- Issued by Rutgers Physics & Astronomy Department.
+- The Aryabhata Endowed Award in Astronomy is given annually to a physics and astronomy undergraduate who, in the judgment of the physics faculty, has demonstrated outstanding academic performance in astronomy.
 
 ## Robert L. Sells Scholarship - May 2022
 
-Issued by Rutgers Physics & Astronomy Department.
-The Robert L. Sells Scholarship is awarded annually to two Rutgers physics majors who, in the judgment of the physics faculty, have demonstrated outstanding academic excellence.
+- Issued by Rutgers Physics & Astronomy Department.
+- The Robert L. Sells Scholarship is awarded annually to two Rutgers physics majors who, in the judgment of the physics faculty, have demonstrated outstanding academic excellence.
 
 ## SAS Paul Robeson Scholar - May 2023
 
-Issued by Rutgers School of Arts and Sciences(SAS).
-Award recognizing all students within SAS who complete a department-based honors thesis.
+- Issued by Rutgers School of Arts and Sciences(SAS).
+- Award recognizing all students within SAS who complete a department-based honors thesis.
 
 ## SAS Excellence Award - May 2021, May 2022
 
-Issued by Rutgers School of Arts and Sciences(SAS).
-Awardees are invited to apply for an excellent academic record. They are then awarded contingent on a strong record of service to the university and/or the community and outstanding essay.
+- Issued by Rutgers School of Arts and Sciences(SAS).
+- Awardees are invited to apply for an excellent academic record. They are then awarded contingent on a strong record of service to the university and/or the community and outstanding essay.
 
 # Test Scores
 
 ## General GRE - Sep 2022
 
-Quantitative Reasoning: 170/170, 96th percentile
-Verbal Reasoning: 163/170, 92nd percentile
-Analytical Writing: 4/6, 54th percentile
+- Quantitative Reasoning: 170/170, 96th percentile
+- Verbal Reasoning: 163/170, 92nd percentile
+- Analytical Writing: 4/6, 54th percentile
 ## Physics Subject GRE - Oct 2022
 
-Physics: 840, 70th percentile
-Classical Mechanics: 088, 79th percentile
-Electromagnetism: 083, 71st percentile
-Quantum Mechanics & Atomic Physics: 088, 79th percentile
+- Physics: 840, 70th percentile
+- Classical Mechanics: 088, 79th percentile
+- Electromagnetism: 083, 71st percentile
+- Quantum Mechanics & Atomic Physics: 088, 79th percentile
+## ACT - Dec 2017
+- 36/36
 # Volunteering
 
 ## Scio Virtual - Apr 2021 to Jul 2021
