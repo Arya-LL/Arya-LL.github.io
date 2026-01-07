@@ -1,25 +1,30 @@
 ---
 author: Arya Lyngdoh Lakshmanan
 pubDatetime: 2025-12-31T18:31:15Z
-title: CV
-slug: cv
-featured: true
-draft: false
+title: CV-pdf
+slug: cv-pdf
+featured: false
+draft: true
 tags:
   - Personal
 description: An in depth description of my qualifications and experiences
 ---
 # Arya Lyngdoh Lakshmanan
 - Location: Brooklyn, NY
-- Links: [Email](mailto:arya.l.lakshmanan@gmail.com), [LinkedIn](http://linkedin.com/in/arya-lyngdoh-lakshmanan), [Personal Website](https://arya-ll.github.io/), [GitHub](https://github.com/Arya-LL/)
+- Links: 
+	- Email: mailto:arya.l.lakshmanan@gmail.com
+	- LinkedIn: http://linkedin.com/in/arya-lyngdoh-lakshmanan
+	- Personal Website: https://arya-ll.github.io/
+	- GitHub: https://github.com/Arya-LL/
 # Overview
-M.S. Scientific Computing student at NYU specializing in High-Performance Computing (HPC), GPU Architecture, and Financial Modeling. Background in Astrophysics and Financial Economics. Experienced in architecting low-latency ML pipelines and parallelized simulation engines using Rust, CUDA, and C++.
+I am an M.S. Scientific Computing student at NYU specializing in High-Performance Computing (HPC), GPU Architecture, and Financial Modeling. My background in Astrophysics and Financial Economics, and I have prior experience is in architecting low-latency ML pipelines and parallelized simulation engines using Rust, CUDA, and C++.
 
-This document provides a detailed overview of my technical background, research experience, and leadership roles, with emphasis on systems engineering, GPU computing, and applied machine learning. The sections most relevant to my current skills and goals are [Education](https://arya-ll.github.io/posts/cv/#education), [AI and Large Language Model Consultant](https://arya-ll.github.io/posts/cv/#ai-and-large-language-model-consultant---dec-2023-to-april-2024), [Undergraduate Research Project](https://arya-ll.github.io/posts/cv/#undergraduate-research-project---sep-2021-to-may-2023), [Multi-GPU Performance Analytical Model](https://arya-ll.github.io/posts/cv/#multi-gpu-performance-analytical-model---sep-2025-to-dec-2025), and  [Rust/CUDA Simulation Engine](https://arya-ll.github.io/posts/cv/#rustcuda-simulation-engine---sep-2025-to-present).
+This document provides a detailed overview of my technical background, research experience, and leadership roles, with an emphasis on systems engineering, GPU computing, and applied machine learning. The sections most relevant to my current skills and goals are [[#Education|Education]], [[#AI and Large Language Model Consultant - Dec 2023 to Apr 2024, May 2025 to Aug 2025|AI and Large Language Model Consultant]], [[#Research Assistant - Sep 2021 to May 2023|Undergraduate Research Project]], [[#Multi-GPU Performance Analytical Model - Sep 2025 to Dec 2025|Multi-GPU Performance Analytical Model]], and  [[#Rust-Based Deep Learning Audio Classifier - Aug 2024 to Present|Rust/CUDA Simulation Engine]]
 
-For some other relevant documents, please see [this CV as a PDF](https://arya-ll.github.io/assets/Arya-Lakshmanan-CV.pdf), [my resume as a PDF](https://arya-ll.github.io/assets/Arya-Lakshmanan-Resume.pdf), , and [my resume as a webpage](https://arya-ll.github.io/posts/resume/)
-# Table of Contents
-
+For some other relevant documents, please see
+- My resume as a PDF: https://arya-ll.github.io/assets/Arya-Lakshmanan-Resume.pdf
+- This CV as a PDF: https://arya-ll.github.io/assets/Arya-Lakshmanan-CV.pdf
+- My resume as a webpage: https://arya-ll.github.io/posts/resume/
 # Education
 ## New York University - May 2024 to May 2026
 
@@ -33,14 +38,13 @@ For some other relevant documents, please see [this CV as a PDF](https://arya-ll
 - Majors: Astrophysics and Economics
 - Minor: Math
 - Certificate in Financial Economics
-- Awards: [Henry Rutgers Scholar Award](https://arya-ll.github.io/posts/cv/#henry-rutgers-scholar-award---may-2023), [Highest Honors In Astrophysics](https://arya-ll.github.io/posts/cv/#highest-honors-in-astrophysics---may-2023), [Aryabhata Endowed Award In Astronomy](https://arya-ll.github.io/posts/cv/#aryabhata-endowed-award-in-astronomy---may-2023), [Robert L. Sells Scholarship](https://arya-ll.github.io/posts/cv/#robert-l.-sells-scholarship---may-2022), [Paul Robeson Scholar](https://arya-ll.github.io/posts/cv/#sas-paul-robeson-scholar---may-2023), [Excellence Award](https://arya-ll.github.io/posts/cv/#sas-excellence-award---may-2021,-may-2022)
-
+- Awards: [[#Henry Rutgers Scholar Award - May 2023|Henry Rutgers Scholar Award]],  [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]],  [[#Aryabhata Endowed Award in Astronomy - May 2023|Aryabhata Endowed Award in Astronomy]],  [[#Robert L. Sells Scholarship - May 2022|Robert L. Sells Scholarship]],  [[#SAS Paul Robeson Scholar - May 2023|Paul Robeson Scholar]],  [[#SAS Excellence Award - May 2021, May 2022|Excellence Award]]
 # Experience
 
 ## AI and Large Language Model Consultant - Dec 2023 to Apr 2024, May 2025 to Aug 2025
 *Wordsworth Tech Inc. (StreamAlive)*
 
-As an AI and LLM Consultant, I proposed and developed the integration of generative AI into WordsworthTech's [StreamAlive](https://www.streamalive.com/) product, focusing on enhancing functionality while managing costs effectively. 
+As an AI and LLM Consultant, I proposed and developed the integration of generative AI into WordsworthTech's StreamAlive(https://www.streamalive.com/) product, focusing on enhancing functionality while managing costs effectively. 
 - **Core API Development:** I developed a NodeJS API to seamlessly integrate cost-efficient LLM models (Gemini/OpenAI) into the existing development stack. To handle the variability of AI outputs, I built custom validation logic and parsers to ensure the data used by the application was consistent and reliable.
 - **Performance & Strategy**: I established metrics to track token usage and response quality. Using these, I implemented caching and prompt-tuning strategies that reduced operational costs while maintaining model performance.
 - **Tooling Expansion**: I created custom plugins for Stream Deck and Google Slides, allowing users to access the platform's generative AI features directly from their existing workflows.
@@ -50,7 +54,7 @@ As an AI and LLM Consultant, I proposed and developed the integration of generat
 I researched the impact that time-periods with heightened star deaths/bursts have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of Dec 2025) investigation.
 - **Data Validation:** I gathered archival images from the Spitzer and Hubble space telescopes, and I developed data cleaning Python scripts to identify and interpolate over contaminants. I validated the cleaning process by sampling and analyzing the data distributions over the interpolated regions.
 - **Data Analysis and Modeling:** I created best-fit models using Python to represent the data accurately. I analyzed the impact of varying initial guesses/hyper-parameters on the resulting models and ensured that the models were stable.
-- **Outcomes**: I presented my findings as an undergraduate thesis, earning me [Highest Honors in Astrophysics](https://arya-ll.github.io/posts/cv/#highest-honors-in-astrophysics)
+- **Outcomes**: I presented my findings as an undergraduate thesis, earning me [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]].
 ## Teaching Assistant - Sep 2021 to May 2023
 *Rutgers Learning Center*
 
@@ -84,7 +88,7 @@ I engineered an asynchronous, multi-threaded deep learning inference pipeline us
 
 ## Rutgers Astronomical Society Treasurer and President - May 2021 to May 2023
 
-I led the [Rutgers Astronomical Society (RAS)](https://ras.physics.rutgers.edu/), a student organization dedicated to public outreach and education. As treasurer and president, I made RAS one of the top 5 most attended student organizations in Rutgers by developing several lasting programs and securing funding for the organization's expansions.
+I led the Rutgers Astronomical Society (RAS)(https://ras.physics.rutgers.edu/), a student organization dedicated to public outreach and education. As treasurer and president, I made RAS one of the top 5 most attended student organizations in Rutgers by developing several lasting programs and securing funding for the organization's expansions.
 - **Leadership:** I orchestrated weekly public observing nights and astronomy seminars for 100+ attendees. I created lasting programs by expanding volunteer roles and developing a merchandise program, resulting in sustainable funding and manpower.
 - **Initiatives and Expansion:** I created and organized two annual special projects to widen the organization's reach - a state park trip for naked-eye nighttime observing and an engineering/physics showcase. I also founded an astrophotography program, creating access to education and tooling without barriers to entry.
 - **Public Speaking**: I delivered presentations in both weekly meetings  and science fairs on complex topics like classical astronomy, dark matter, and cosmology to audiences ranging from elementary school students to astronomy professors.

@@ -12,10 +12,11 @@ description: My resume as a markdown file
 # Arya Lyngdoh Lakshmanan
 - Location: Brooklyn, NY
 - Links: [Email](mailto:arya.l.lakshmanan@gmail.com), [LinkedIn](http://linkedin.com/in/arya-lyngdoh-lakshmanan), [Personal Website](https://arya-ll.github.io/), [GitHub](https://github.com/Arya-LL/)
+- Other relevant documents: [This resume as a PDF](https://arya-ll.github.io/assets/Arya-Lakshmanan-Resume.pdf), [CV as a PDF](https://arya-ll.github.io/assets/Arya-Lakshmanan-CV.pdf), [CV as a webpage](https://arya-ll.github.io/posts/resume/)
 
 # Education
 ## New York University / May 2026
-- M.S. Scientific Computing
+- M.S. Scientific Computing - GPA: 3.45/4.00
 - **Focus**: High-performance modeling/forecasting
 - **Courses**: Numerical Methods, Machine Learning, Deep Learning, GPU Architecture & Programming
 
