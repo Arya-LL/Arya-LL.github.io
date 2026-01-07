@@ -17,9 +17,9 @@ description: An in depth description of my qualifications and experiences
 	- Personal Website: https://arya-ll.github.io/
 	- GitHub: https://github.com/Arya-LL/
 # Overview
-I am an M.S. Scientific Computing student at NYU specializing in High-Performance Computing (HPC), GPU Architecture, and Financial Modeling. My background in Astrophysics and Financial Economics, and I have prior experience is in architecting low-latency ML pipelines and parallelized simulation engines using Rust, CUDA, and C++.
+I am an M.S. Scientific Computing student at NYU specializing in High-Performance Computing (HPC), GPU Architecture, and Financial Modeling. My background in Astrophysics and Financial Economics, and I have prior experience in architecting low-latency ML pipelines and parallelized simulation engines using Rust, CUDA, and C++.
 
-This document provides a detailed overview of my technical background, research experience, and leadership roles, with an emphasis on systems engineering, GPU computing, and applied machine learning. The sections most relevant to my current skills and goals are [[#Education|Education]], [[#AI and Large Language Model Consultant - Dec 2023 to Apr 2024, May 2025 to Aug 2025|AI and Large Language Model Consultant]], [[#Research Assistant - Sep 2021 to May 2023|Undergraduate Research Project]], [[#Multi-GPU Performance Analytical Model - Sep 2025 to Dec 2025|Multi-GPU Performance Analytical Model]], and  [[#Rust-Based Deep Learning Audio Classifier - Aug 2024 to Present|Rust/CUDA Simulation Engine]]
+This document provides a detailed overview of my technical background, research experience, and leadership roles, with an emphasis on systems engineering, GPU computing, and applied machine learning. The sections most relevant to my current skills and goals are [[#Education|Education]], [[#AI and Large Language Model Consultant - Dec 2023 to Apr 2024, May 2025 to Aug 2025|AI and Large Language Model Consultant]], [[#Research Assistant - Sep 2021 to May 2023|Undergraduate Research Project]], [[#Multi-GPU Performance Analytical Model - Sep 2025 to Dec 2025|Multi-GPU Performance Analytical Model]], and  [[#Rust/CUDA Simulation Engine - Sep 2025 to Present|Rust/CUDA Simulation Engine]].
 
 For some other relevant documents, please see
 - My resume as a PDF: https://arya-ll.github.io/assets/Arya-Lakshmanan-Resume.pdf
@@ -51,7 +51,7 @@ As an AI and LLM Consultant, I proposed and developed the integration of generat
 ## Research Assistant - Sep 2021 to May 2023
 *Rutgers University | Advisor: Dr. Kristen McQuinn*
 
-I researched the impact that time-periods with heightened star deaths/bursts have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn to integrate into a larger (unpublished as of Dec 2025) investigation.
+I researched the impact that time-periods with heightened star deaths/bursts have on the dark matter distributions within nearby dwarf galaxies. I led this project with the guidance of Dr. Kristen McQuinn - NASA Roman Space Telescope Mission Head. This project dovetails into a larger (unpublished as of Dec 2025) investigation.
 - **Data Validation:** I gathered archival images from the Spitzer and Hubble space telescopes, and I developed data cleaning Python scripts to identify and interpolate over contaminants. I validated the cleaning process by sampling and analyzing the data distributions over the interpolated regions.
 - **Data Analysis and Modeling:** I created best-fit models using Python to represent the data accurately. I analyzed the impact of varying initial guesses/hyper-parameters on the resulting models and ensured that the models were stable.
 - **Outcomes**: I presented my findings as an undergraduate thesis, earning me [[#Highest Honors in Astrophysics - May 2023|Highest Honors in Astrophysics]].
