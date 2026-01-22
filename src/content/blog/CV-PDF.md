@@ -12,7 +12,7 @@ description: An in depth description of my qualifications and experiences
 # Arya Lyngdoh Lakshmanan
 - Location: Brooklyn, NY
 - Links: 
-	- Email: mailto:arya.l.lakshmanan@gmail.com
+	- Email: arya.l.lakshmanan@gmail.com
 	- LinkedIn: http://linkedin.com/in/arya-lyngdoh-lakshmanan
 	- Personal Website: https://arya-ll.github.io/
 	- GitHub: https://github.com/Arya-LL/
@@ -30,7 +30,7 @@ For some other relevant documents, please see
 
 - Master's in scientific computing
 - GPA: 3.45/4.00
-- Completed Coursework: Machine Learning, GPU Architecture and Programming, Numerical Methods I/II, Fluid Dynamics, Methods of Applied Mathematics, Fundamental Algorithms, Programming Languages, Computer Graphics
+- Completed Coursework: Machine Learning, Graphics Processing Units: Architecture & Programming, Machine Learning for Computational Statistics, Advanced Python for Data Science, Multicore Processors: Architecture & Programming, Numerical Methods I/II, Fundamental Algorithms, Programming Languages, Fluid Dynamics, Computer Graphics
 ### Rutgers University - Sep 2019 to May 2023
 
 - Bachelor of Science - BS

@@ -25,8 +25,7 @@ For some other relevant documents, please see [this CV as a PDF](https://arya-ll
 
 - Master's in scientific computing
 - GPA: 3.45/4.00
-- Completed Coursework: Machine Learning, GPU Architecture and Programming, Numerical Methods I/II, Fluid Dynamics, Methods of Applied Mathematics, Fundamental Algorithms, Programming Languages, Computer Graphics
-## Rutgers University - Sep 2019 to May 2023
+- Completed Coursework: Machine Learning, Graphics Processing Units: Architecture & Programming, Machine Learning for Computational Statistics, Advanced Python for Data Science, Multicore Processors: Architecture & Programming, Numerical Methods I/II, Fundamental Algorithms, Programming Languages, Fluid Dynamics, Computer Graphics
 
 - Bachelor of Science - BS
 - GPA: 3.75/4.00 - Magna Cum Laude

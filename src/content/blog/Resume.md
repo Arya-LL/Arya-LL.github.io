@@ -18,7 +18,7 @@ description: My resume as a markdown file
 ## New York University / May 2026
 - M.S. Scientific Computing - GPA: 3.45/4.00
 - **Focus**: High-performance modeling/forecasting
-- **Courses**: Numerical Methods, Machine Learning, Deep Learning, GPU Architecture & Programming
+- **Courses**: Machine Learning, Graphics Processing Units: Architecture & Programming, Machine Learning for Computational Statistics, Advanced Python for Data Science, Multicore Processors: Architecture & Programming, Numerical Methods I/II, Fundamental Algorithms, Programming Languages, Fluid Dynamics, Computer Graphics
 
 ## Rutgers University / May 2023
 - B.S. Astrophysics & Financial Economics
